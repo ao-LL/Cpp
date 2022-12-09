@@ -27,12 +27,12 @@ int main()
     scanf("%d",&n);
 
     printf("input num: ");
-    for(int i = 0 ; i < n ; i++) scanf("%d",&q[i]);
+    for (int i = 0 ; i < n ; i ++ ) scanf("%d",&q[i]);
 
     quick_sort(q, 0, n-1);
 
     printf("output: ");
-    for(int i = 0; i < n; i++) printf(" %d", q[i]);
+    for (int i = 0; i < n; i ++ ) printf(" %d", q[i]);
 
     system("pause");
     return 0;
